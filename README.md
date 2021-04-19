@@ -6,6 +6,7 @@ Welcome to Netliblox! This is a very work in progress project intended for the f
 - Hook your website up to a dynamic backend like serverless functions, your pods in Kubernetes, or your app on VMs
   - Managing and maintaining this app is out of scope, but you should be able to connect to it from your site easily and reliably
 - Build and test your static site without setting up CI/CD
+- Use schemas and a _compiler_ to ensure that you don't push something that will break your side (using [blox](https://github.com/cueblox/blox))
 
 ## Motivation
 
